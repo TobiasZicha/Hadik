@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pravidla</title>
+    <link rel="shortcut icon" type="x-icon" href="pictures/T.png">
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #0a0a0a;
+            color: white;
+            font-family: 'Syne', sans-serif;
+            min-height: 100vh;
+            padding: 60px 20px;
+        }
+
+        article {
+            background: #111;
+            border: 1px solid #222;
+            border-radius: 20px;
+            padding: 50px 40px;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 52px;
+            font-weight: 800;
+            color: #4ade80;
+            margin-bottom: 32px;
+            text-align: center;
+        }
+
+        h1.section {
+            margin-top: 48px;
+        }
+
+        .rule {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 14px;
+            margin-bottom: 32px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #aaa;
+            text-align: center;
+        }
+
+        img {
+            width: 220px;
+            border-radius: 10px;
+            border: 1px solid #222;
+        }
+
+        .back {
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            font-family: 'Syne', sans-serif;
+            font-weight: 800;
+            font-size: 16px;
+            color: #555;
+            margin-top: 40px;
+            transition: color 0.2s;
+        }
+
+        .back:hover {
+            color: #4ade80;
+        }
+    </style>
+</head>
+<body>
+<article>
+    <h1>Pravidla</h1>
+
+    <div class="rule">
+        <p>Jídlo (oranžové pole) ti dá Score. Čím větší Score, tím jsi větší.</p>
+        <img src="pictures/Hadík - Google Chrome 01.12.2023 20_07_22.png" alt="jídlo">
+    </div>
+
+    <div class="rule">
+        <p>Pokud si místo jídla dáš jed (červené pole), umřeš a přijdeš o všechno score.</p>
+        <img src="pictures/Hadík - Google Chrome 01.12.2023 19_57_50.png" alt="jed">
+    </div>
+
+    <div class="rule">
+        <p>Pokud narazíš sám do sebe, zemřeš.</p>
+        <img src="pictures/Hadík - Google Chrome 03.12.2023 0_46_17.png" alt="kolize">
+    </div>
+
+    <h1 class="section">Inspirace</h1>
+    <div class="rule">
+        <p>Hra je inspirována hrou "Snake", která vznikla na tlačítkových mobilech.</p>
+        <img src="pictures/F0OAxfCX0AA-7wg.jpg" alt="Snake hra">
+    </div>
+
+    <a href="index.html" class="back">← Zpět</a>
+</article>
+</body>
+</html>

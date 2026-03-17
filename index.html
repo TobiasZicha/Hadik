@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Had</title>
+    <link rel="shortcut icon" type="x-icon" href="pictures/T.png">
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #0a0a0a;
+            color: white;
+            font-family: 'Syne', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card {
+            background: #111;
+            border: 1px solid #222;
+            border-radius: 20px;
+            padding: 60px 50px;
+            text-align: center;
+            width: 360px;
+        }
+
+        h1 {
+            font-size: clamp(48px, 18vw, 80px);
+            font-weight: 800;
+            color: #4ade80;
+            line-height: 1;
+            margin-bottom: 8px;
+        }
+
+        p {
+            color: #555;
+            font-size: 14px;
+            margin-bottom: 48px;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+
+        a {
+            display: block;
+            text-decoration: none;
+            font-family: 'Syne', sans-serif;
+            font-weight: 800;
+            font-size: 18px;
+            padding: 16px;
+            border-radius: 12px;
+            transition: opacity 0.2s;
+        }
+
+        a:hover {
+            opacity: 0.85;
+        }
+
+        .btn-play {
+            background: #4ade80;
+            color: #0a0a0a;
+            margin-bottom: 12px;
+        }
+
+        .btn-rules {
+            background: #1a1a1a;
+            color: white;
+            border: 1px solid #2a2a2a;
+        }
+    </style>
+</head>
+<body>
+<div class="card">
+    <h1>Had</h1>
+    <p>Klasická hra</p>
+    <a href="menu.html" class="btn-play">▶ Hrát</a>
+    <a href="pravidla.html" class="btn-rules">Pravidla</a>
+</div>
+</body>
+</html>
